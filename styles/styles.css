@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  /* Body Styling */
+  body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  /* Header */
+  header {
+    background-color: #0047ab;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  /* Banner Styling */
+.banner {
+    background-color: #0047ab;
+    color: white;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner .logo h1 {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+  .banner nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .banner nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .banner nav a:hover {
+    background-color: white;
+    color: #0047ab;
+  }
+  /* About Us Section */
+  section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  main h1 {
+    font-size: 35px;
+    color: #0047ab;
+    margin-bottom: 5px;
+  }
+  main h2 {
+    font-size: 24px;
+    color: #0047ab;
+    margin-bottom: 10px;
+  }
+  main p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .register-link {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0047ab;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.register-link:hover {
+    background-color: #002d75;
+    transform: scale(1.05);
+}
+.register-link:active {
+    transform: scale(1);
+}
