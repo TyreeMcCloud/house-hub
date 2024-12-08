@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <nav>
                 <a href="index.php">Home</a>
-                <a href="seller_dashboard.php">Dashboard</a>
+                <a href="seller_dashboard.php">Back to Dashboard</a>
             </nav>
             <div class="user-info">
             <p>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></p>

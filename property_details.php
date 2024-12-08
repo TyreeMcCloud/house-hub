@@ -73,7 +73,7 @@ $property = $result->fetch_assoc();
             </div>
             <nav>
                 <a href="index.php">Home</a>
-                <a href="seller_dashboard.php">Dashboard</a>
+                <a href="seller_dashboard.php">Back to Dashboard</a>
             </nav>
             <div class="user-info">
             <p>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></p>
@@ -146,6 +146,9 @@ $property = $result->fetch_assoc();
                 <td><?php echo date("F j, Y, g:i a", strtotime($property['created_at'])); ?></td>
             </tr>
         </table>
+        <nav>
+                <a href="seller_dashboard.php">Back to Dashboard</a>
+        </nav>
     </div>
 
 </body>
