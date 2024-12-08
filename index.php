@@ -1,3 +1,8 @@
+<?php // clear session when going home
+session_start();
+session_unset();
+session_destroy();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

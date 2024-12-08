@@ -1,6 +1,12 @@
 <?php include 'database/db_connection.php'; ?>
 <?php
 session_start();
+// Check if the user is logged in
+if (!isset($_SESSION['user_id'])) {
+    // If not logged in, redirect to the login page
+    header("Location: login.php");
+    exit();
+}
 // If the user is not a seller send them to login page
 if ($_SESSION['user_type'] != 'seller') {
     header('Location: login.php');

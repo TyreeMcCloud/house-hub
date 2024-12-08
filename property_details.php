@@ -1,7 +1,11 @@
 <?php
 include 'database/db_connection.php';
 session_start();
-
+if (!isset($_SESSION['user_id'])) {
+    // If not logged in, redirect to the login page
+    header("Location: login.php");
+    exit();
+}
 // Check if the property id is passed
 if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
     echo "Invalid property ID.";

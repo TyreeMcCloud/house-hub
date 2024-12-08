@@ -1,7 +1,11 @@
 <?php
 include 'database/db_connection.php';
 session_start();
-
+if (!isset($_SESSION['user_id'])) {
+    // If not logged in, redirect to the login page
+    header("Location: login.php");
+    exit();
+}
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $seller_id = $_SESSION['user_id'];
     $location = $_POST['location'];
