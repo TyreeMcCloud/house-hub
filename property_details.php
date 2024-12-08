@@ -2,13 +2,13 @@
 include 'database/db_connection.php';
 session_start();
 
-// Check if the property id is passed via the URL
+// Check if the property id is passed
 if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
     echo "Invalid property ID.";
     exit();
 }
 
-// get the property id from the URL
+// get the property id
 $property_id = $_GET['id'];
 
 // get the property details from the database

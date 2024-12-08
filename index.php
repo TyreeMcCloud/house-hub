@@ -25,7 +25,7 @@
     </section>
     <section>
         <h2>What We Do</h2>
-        <p>House Hub connects property buyers with sellers through an easy-to-use Website. Whether you’re looking to buy your dream home or sell your property fast, we ensure an experience with tools to browse and directly.</p>
+        <p>House Hub connects property buyers with sellers through an easy-to-use Website. Whether you’re looking to buy your dream home or sell your property fast, we ensure an experience with tools to browse and directly buy homes.</p>
         <img src="images/home.png" alt="home-img">
     </section>
 
@@ -51,9 +51,9 @@
         <h2>How We Attract Customers</h2>
         <p>We strive to provide value to our users through innovative and modern strategies:</p>
         <ul>
-            <li><strong>Promotions:</strong> First-time users enjoy free property listings for a limited time.</li>
-            <li><strong>Social Media:</strong> We leverage platforms like Instagram for successful stories property highlights.</li>
-            <li><strong>Educational Resources:</strong> Blogs, webinars, and guides on buying or selling properties to empower and educate our users.</li>
+            <li><strong>Promotions:</strong> We offer limited time deals on property listings.</li>
+            <li><strong>Social Media:</strong> We use platforms like Instagram for successful stories and property highlights.</li>
+            <li><strong>Educational Resources:</strong> Blogs, webinars, and guides on buying or selling properties to educate our users.</li>
         </ul>
     </section>
     <a href="registration.php" class="register-link">REGISTER TODAY!</a>

@@ -63,7 +63,7 @@
     max-width: 100%;
     height: auto;
 }
-  main {
+main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -159,7 +159,7 @@ form {
     transform: scale(1.05);
   }
   /* Seller Dashboard */
-  .dashboard-container {
+.dashboard-container {
     max-width: 1200px;
     margin: 20px auto;
     display: grid;
@@ -207,7 +207,7 @@ form {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
   /* Property Details Page */
-  .property-details {
+.property-details {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;

@@ -7,8 +7,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $last_name = $_POST['last_name'];
     $email = $_POST['email'];
     $username = $_POST['username'];
+    // hashing password
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
+    // Populate Database
     $sql = "INSERT INTO users (user_type, first_name, last_name, email, username, password)
             VALUES ('$user_type', '$first_name', '$last_name', '$email', '$username', '$password')";
 

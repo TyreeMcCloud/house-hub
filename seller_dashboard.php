@@ -1,6 +1,7 @@
 <?php include 'database/db_connection.php'; ?>
 <?php
 session_start();
+// If the user is not a seller send them to login page
 if ($_SESSION['user_type'] != 'seller') {
     header('Location: login.php');
 }

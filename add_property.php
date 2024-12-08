@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Insert into the database
-    $sql = "INSERT INTO properties (seller_id, location, age, floor_plan, square_footage, bedrooms, bathrooms, garden, parking, proximity, main_roads, price, image_path) 
+    $sql = "INSERT INTO properties (seller_id, location, age, floor_plan, square_footage, bedrooms, bathrooms, garden, parking, proximity, main_roads, price, image_path)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("isisiissssdds", $seller_id, $location, $age, $floor_plan, $square_footage, $bedrooms, $bathrooms, $garden, $parking, $proximity, $main_roads, $price, $image_path);
@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <main>
         <h1>Add New Property</h1>
         <form method="POST" action="add_property.php" enctype="multipart/form-data">
-            <label for="location">Location:</label>
+            <label for="location">Address:</label>
             <input type="text" id="location" name="location" required>
 
             <label for="age">Property Age (years):</label>
