@@ -16,6 +16,9 @@
             <nav>
                 <a href="index.php">Home</a>
             </nav>
+            <div class="user-info">
+                <p>Please register to continue</p>
+                </div>
         </div>
     </header>
     <h1 align="center">Register</h1>

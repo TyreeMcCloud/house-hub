@@ -50,6 +50,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <nav>
                 <a href="index.php">Home</a>
             </nav>
+            <div class="user-info">
+            <p>Please login to continue</p>
+            </div>
         </div>
     </header>
     <h1 align="center">Login</h1>

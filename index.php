@@ -21,6 +21,9 @@ session_destroy();
                 <a href="registration.php">Register</a>
                 <a href="login.php">Login</a>
             </nav>
+            <div class="user-info">
+            <p>Please login or register to continue</p>
+            </div>
         </div>
     </header>
     <main>
