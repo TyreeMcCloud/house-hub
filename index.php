@@ -44,7 +44,7 @@ session_destroy();
             <li><strong>Messaging:</strong> Communicate directly with buyers or sellers through our secure messaging platform.</li>
             <li><strong>Tours:</strong> Request a tour with the seller to come see the home in person.</li>
         </ul>
-    </section>
+    </section> <br>
 
     <section>
         <h2>Why Choose Us?</h2>
@@ -53,7 +53,7 @@ session_destroy();
             <li><strong>User-Friendly Interface:</strong> Simple design and features to save you time and effort.</li>
             <li><strong>Direct Communication:</strong> No middlemen – you deal directly with buyers or sellers.</li>
         </ul>
-    </section>
+    </section> <br>
 
     <section>
         <h2>How We Attract Customers</h2>

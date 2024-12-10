@@ -96,11 +96,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="number" id="bathrooms" name="bathrooms" min="0" required>
 
             <label>
-                <input type="checkbox" name="garden" id="garden"> Has Garden
+                Has Garden: <br>
+                <input type="checkbox" name="garden" id="garden">
             </label>
 
             <label>
-                <input type="checkbox" name="parking" id="parking"> Has Parking
+                Has Parking: <br> 
+                <input type="checkbox" name="parking" id="parking">
             </label>
 
             <label for="proximity">Places Nearby (e.g., schools, shops):</label>

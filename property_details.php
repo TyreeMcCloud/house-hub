@@ -80,6 +80,7 @@ $property = $result->fetch_assoc();
             </div>
         </div>
     </header>
+    <br>
     <h1>Property Details</h1>
 
     <div class="property-details">

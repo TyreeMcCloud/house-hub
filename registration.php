@@ -21,6 +21,7 @@
                 </div>
         </div>
     </header>
+    <br>
     <h1 align="center">Register</h1>
     <form method="POST" action="handle_register.php">
         <label for="user_type">User Type:</label>

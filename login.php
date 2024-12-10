@@ -55,6 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </div>
     </header>
+    <br>
     <h1 align="center">Login</h1>
     <form method="POST" action="login.php">
         <label for="username">Username:</label>
