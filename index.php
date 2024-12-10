@@ -26,6 +26,7 @@ session_destroy();
             </div>
         </div>
     </header>
+    <!--This section of the home page highlights Our mission statement/list of services/and contact information-->
     <main>
     <section>
         <h1 align="center">About Us</h1>
